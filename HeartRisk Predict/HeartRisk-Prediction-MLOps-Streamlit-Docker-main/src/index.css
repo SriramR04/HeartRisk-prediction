@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url('https://cdn.statically.io/img/blog.skibro.com/blog/wp-content/uploads/2020/01/47204c01-burning-calories-hand-holding-paper-768x513.jpg?quality=100&f=auto');
+  background-size: cover; /* Cover the entire background */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.container {
+  background-color: #ffffff; /* White container background */
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333333; /* Dark gray heading */
+  text-align: center;
+}
+
+form {
+  background-color: #FFA500; /* Orange */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+
+
+
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type='text'],
+input[type='number'] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc; /* Light gray border */
+  border-radius: 5px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue button */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.prediction {
+  margin-top: 20px;
+  text-align: center;
+} 
+

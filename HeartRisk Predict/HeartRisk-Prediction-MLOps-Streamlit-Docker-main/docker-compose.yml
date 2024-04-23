@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend/calories
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/calories:/backend/calories
+
+  frontend:
+    build: ./applicationreact
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./applicationreact:/applicationreact
+    depends_on:
+      - backend
